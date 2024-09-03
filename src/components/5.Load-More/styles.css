@@ -1,0 +1,47 @@
+.load-more-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5%;
+  row-gap: 2%;
+  text-align: center;
+}
+
+.image-container-load-more {
+  border: 1px solid salmon;
+  width: 9%;
+  margin: 1rem 0;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+/* responsive */
+
+@media (max-width: 620px) {
+  .load-more-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    row-gap: 2%;
+    text-align: center;
+  }
+
+  .image-container-load-more {
+    border: 1px solid salmon;
+    width: 48%;
+    margin: 0;
+  }
+
+  img {
+    height: 150px;
+  }
+  button {
+    margin: 2rem auto;
+  }
+}

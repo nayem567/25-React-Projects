@@ -1,0 +1,42 @@
+section {
+    border: 1px salmon solid;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    
+  }
+  
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .img-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  
+  .btn-container {
+    border: 1px solid orangered;
+    text-align: center;
+  }
+  
+ 
+  
+  /*  */
+  
+  @media (max-width: 600px) {
+    
+    section {
+      width: 100%;
+    }
+    img {
+      width: 100%;
+      height: 300px;
+    }
+    .title{
+      font-size: 2rem;
+    }
+  }
+  

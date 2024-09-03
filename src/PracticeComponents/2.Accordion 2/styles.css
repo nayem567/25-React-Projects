@@ -1,0 +1,41 @@
+
+article {
+  cursor: pointer;
+  max-width: 600px;
+}
+
+.question-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+    margin: 1rem 0;
+  background: #2f6872;
+}
+
+.question-container, .answer{
+    padding: 0 1rem;
+}
+
+.answer{
+    background: #2f3b3d;
+}
+
+p.answer{
+    padding: 1rem ;
+}
+
+span {
+  background: #00000081;
+  padding: 0.2rem 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-radius: 12px;
+  text-align: center;
+}
+
+
+@media (max-width:768px) {
+  article {
+    max-width: 100%;
+  }
+}

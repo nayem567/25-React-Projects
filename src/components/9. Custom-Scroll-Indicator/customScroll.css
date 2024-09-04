@@ -1,0 +1,25 @@
+p {
+  font-size: 1.2rem;
+}
+
+body {
+  overflow-y: visible;
+}
+
+.top-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: green;
+  height: 15px;
+}
+
+.scrollBar-inner{
+  height: 15px;
+  background: purple;
+  width: 0%;
+}
+
+.scroll-container {
+  text-align: center;
+}

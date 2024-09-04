@@ -34,7 +34,7 @@ const App = () => {
       {/* 3rd September - 2024 */}
       <ScrollIndicator />
 
-      
+
     </main>
   );
 };
